@@ -15,7 +15,7 @@ class Top_header extends React.Component{
                                 </div>
                             </div>
                             <div className="col-md-8 col-sm-12">
-                                <div className="desk_menu">
+                                <div className="menu">
                                     <ul>
                                         <li><a href="javascript:void(0)">Home</a></li>
                                         <li><a href="javascript:void(0)">Drinks</a></li>

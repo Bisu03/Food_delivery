@@ -12,18 +12,24 @@
   display: inline-block;
   margin: 25px;
 }
-@media(max-width:600px){
-.desk_menu ul li {
-  display: none;
+@media (max-width: 600px) {
+  .menu ul li {
+    display: none;
+  }
 }
-}
-.menu ul li a{
-    color: black;
+.menu ul li a {
+  color: black;
 }
 
-.icons ul li{
+.icons ul li {
   display: inline-block;
   margin: 25px;
   list-style: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .icons ul li {
+    display: none;
+  }
 }
