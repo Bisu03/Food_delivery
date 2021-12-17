@@ -1,7 +1,7 @@
 .top_header {
   height: 80px;
   background-color: white;
-  box-shadow: 0 0 1px;
+  box-shadow: 0 0 4px;
 }
 /*.top_header menu ul li{
   list-style: none;
@@ -10,7 +10,8 @@
 .menu ul li {
   list-style: none;
   display: inline-block;
-  margin: 25px;
+  margin: 28px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 @media (max-width: 600px) {
   .menu ul li {
