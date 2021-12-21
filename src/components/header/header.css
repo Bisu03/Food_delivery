@@ -17,15 +17,10 @@
 
 .header-text h1 {
   color: var(--primary-bg);
-  font-size: 50px;
-  font-weight: 600;
-  margin-bottom: 25px;
 }
 
 .header-text p {
-  font-size: 13px;
   color: var(--primary-bg);
-  margin-bottom: 25px;
 }
 
 .location-form {

@@ -16,17 +16,3 @@
 .nav-link:hover {
   color: var(--secondary-bg);
 }
-
-.register-btn {
-  background-color: var(--secondary-bg);
-  color: var(--primary-bg);
-  border-radius: 50px;
-  font-size: 14px;
-  padding: 10px 20px;
-  /* box-shadow: 0 0 10px 0 #a3a3a3; */
-}
-
-.register-btn:hover {
-  background-color: var(--primary-bg);
-  color: var(--secondary-bg);
-}

@@ -9,8 +9,8 @@ const Header = () => {
         <div className="col-md-6">
           <div className="header-text">
             <h5>Most trusted aggregator in Food category</h5>
-            <h1>Get your desired food delivered at your doorstep</h1>
-            <p>
+            <h1 className="section-title">Get your desired food delivered at your doorstep</h1>
+            <p className="section-subtitle">
               Enter your location to get nearest restaurants for delivery and
               dine in.
             </p>

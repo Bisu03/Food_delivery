@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <button className="btn register-btn" type="submit">
+        <button className="btn my-btn" type="submit">
           Register Now
         </button>
       </div>
