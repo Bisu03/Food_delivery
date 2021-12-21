@@ -1,11 +1,20 @@
 .navbar {
-  margin-top: 5px;
+  padding-top: 15px;
 }
 
-.nav-item {
+.navbar-brand {
+  color: var(--secondary-bg);
+}
+
+.nav-link {
   font-size: 15px;
   font-weight: 500;
+  color: var(--primary-bg);
   margin-right: 25px;
+}
+
+.nav-link:hover {
+  color: var(--secondary-bg);
 }
 
 .register-btn {
@@ -14,7 +23,7 @@
   border-radius: 50px;
   font-size: 14px;
   padding: 10px 20px;
-  box-shadow: 0 0 10px 0 #a3a3a3;
+  /* box-shadow: 0 0 10px 0 #a3a3a3; */
 }
 
 .register-btn:hover {

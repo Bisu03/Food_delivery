@@ -1,11 +1,17 @@
 import React from "react";
-import Footer from "../../components/footer/footer";
+import "./homepage.css"
 import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/footer";
 
 const Homepage = () => {
   return (
     <div>
-      <Navbar />
+      <div className="top-section">
+        <Navbar />
+        <Header />
+      </div>
+
       <Footer />
     </div>
   );

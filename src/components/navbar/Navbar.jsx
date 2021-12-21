@@ -3,7 +3,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light container">
+    <nav className="navbar navbar-expand-lg container">
       <a className="navbar-brand font-weight-bold" href="#">Foodies</a>
       <button
         className="navbar-toggler"
