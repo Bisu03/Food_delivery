@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className="col-md-6">
           <div className="header-image">
-            <img src={headerImg} alt="header image" />
+            <img src={headerImg} alt="header-img" />
           </div>
         </div>
       </div>
