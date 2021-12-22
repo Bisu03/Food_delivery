@@ -6,6 +6,10 @@
   color: var(--secondary-bg);
 }
 
+.navbar-brand:hover {
+  color: var(--secondary-bg);
+}
+
 .nav-link {
   font-size: 15px;
   font-weight: 500;

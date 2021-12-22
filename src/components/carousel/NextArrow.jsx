@@ -11,7 +11,9 @@ const NextArrow = ({ className, style, onClick }) => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "4px",
+        width: "30px",
+        height: "30px",
+        paddingTop: "3px",
       }}
       onClick={onClick}
     ></div>

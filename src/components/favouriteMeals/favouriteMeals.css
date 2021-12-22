@@ -1,0 +1,48 @@
+.favourite-meals-wrapper {
+    padding: 5rem 0;
+}
+
+.favourite-meals-wrapper p {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.favourite-meals-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.favourite-meals-item {
+    width: 245px;
+    height: 300px;
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    /* margin-right: 25px; */
+    box-shadow: 1px 1px 6px 0 #cecece;
+    cursor: pointer;
+}
+
+.favourite-meals-item-image {
+    width: 100%;
+    height: 80%;
+    border-radius: inherit;
+}
+
+.favourite-meals-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.favourite-meals-item-title {
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
