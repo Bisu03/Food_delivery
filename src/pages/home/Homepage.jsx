@@ -6,6 +6,7 @@ import Footer from "../../components/footer/footer";
 import Brands from "../../components/Brands/Brands";
 import WhyChooseUs from "../../components/whyChooseUs/WhyChooseUs";
 import FavouriteMeals from "../../components/favouriteMeals/FavouriteMeals";
+import ProductList from "../../components/productList/ProductList";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
         <Brands />
       </div>
       <FavouriteMeals />
+      <ProductList />
       <WhyChooseUs />
       <Footer />
     </div>
