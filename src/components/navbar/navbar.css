@@ -1,0 +1,22 @@
+.navbar {
+  padding-top: 15px;
+}
+
+.navbar-brand {
+  color: var(--secondary-bg);
+}
+
+.navbar-brand:hover {
+  color: var(--secondary-bg);
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--primary-bg);
+  margin-right: 25px;
+}
+
+.nav-link:hover {
+  color: var(--secondary-bg);
+}

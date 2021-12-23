@@ -1,0 +1,61 @@
+.product-list {
+    background: var(--card-bg);
+    padding: 5rem 0;
+}
+
+.product-list-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-search-form {
+    background: var(--primary-bg);
+    width: max-content;
+    border-radius: 50px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    box-shadow: 1px 1px 6px 0 #cecece;
+  }
+  
+  .food-search-form i {
+    margin-left: 13px;
+    color: var(--secondary-bg);
+  }
+  
+  .food-search-form input {
+    border: none;
+    outline: none;
+    border-radius: inherit;
+    width: 220px;
+    height: 100%;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  .food-search-form button {
+    border: none;
+    outline: none;
+    background: var(--secondary-bg);
+    color: var(--primary-bg);
+    border-radius: inherit;
+    height: 100%;
+    margin-left: 5px;
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+
+  .product-list-head p {
+      margin-top: 20px;
+      font-size: 16px;
+  }
+
+  .product-list-items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px 15px;
+  }

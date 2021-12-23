@@ -1,0 +1,29 @@
+.brands-wrapper {
+    background: var(--primary-bg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 50px 15px -40px #dddddd;
+    position: relative;
+    top: 80px;
+    margin-bottom: 100px;
+}
+
+.brand-cover {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--secondary-box-shadow);
+    border: 0.5px solid var(--light-border);
+}
+
+.brands-item:first-of-type {
+    margin-left: 50px;
+}
+
+.brand-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}

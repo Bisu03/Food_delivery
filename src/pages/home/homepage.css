@@ -1,0 +1,7 @@
+.top-section {
+  background-image: radial-gradient(
+    circle farthest-corner at -4% -12.9%,
+    rgb(11, 12, 12) 0.3%,
+    rgba(30, 33, 48, 1) 90.2%
+  );
+}
