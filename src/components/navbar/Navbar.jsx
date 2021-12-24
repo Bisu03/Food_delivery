@@ -1,10 +1,13 @@
 import React from "react";
 import "./navbar.css";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg container">
-      <a className="navbar-brand font-weight-bold" href="#">Foodies</a>
+      <Link className="navbar-brand font-weight-bold" to="/">
+        Foodies
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -20,35 +23,35 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/">
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Dine In
-            </a>
+            <NavLink className="nav-link" to="/dine-out">
+              Dine Out
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
-              Drinks
-            </a>
+            <NavLink className="nav-link" to="/cart">
+              Cart
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/contact-us">
               Contact Us
-            </a>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <NavLink className="nav-link" to="/about">
               About
-            </a>
+            </NavLink>
           </li>
         </ul>
 
-        <button className="btn my-btn" type="submit">
+        <Link className="btn my-btn" to="/register">
           Register Now
-        </button>
+        </Link>
       </div>
     </nav>
   );
