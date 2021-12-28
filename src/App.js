@@ -3,6 +3,7 @@ import "./App.css";
 import Homepage from "./pages/home/Homepage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
+import Contactus from "./pages/contact-us/contact-us";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/register" element={<h1>Register page</h1>} />
           <Route path="/login" element={<h1>Login page</h1>} />
           <Route path="/about" element={<h1>About us page</h1>} />
-          <Route path="/contact-us" element={<h1>Contact us page</h1>} />
+          <Route path="/contact-us" element={<Contactus />} />
         </Routes>
       </Router>
     </div>
