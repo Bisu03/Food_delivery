@@ -16,6 +16,12 @@ class Footer extends React.Component {
                   width="100px"
                 ></img>
               </div>
+              <div className="contact-icon">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+              </div>
             </div>
             <div className="col-md-3 col-sm-12">
               <div className="blog">
